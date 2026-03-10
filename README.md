@@ -31,3 +31,14 @@
 
 
 
+<footer>
+
+© Copyright 2026. All Rights Reserved. <br>
+
+vacation@vacation.net
+
+</footer>
+
+</body>
+
+</html>
