@@ -23,7 +23,7 @@
 
     <div class="intro">
     <h2>Your perfect vacation awaits!</h2>
-    <p>🌿 Nature | 💦 Waterfalls | 🦞 Fresh Seafood</p>
+    <p>🌿 Nature | 💦 Waterfalls | ⛰️ Mountain</p>
     <p><strong>Three destinations. One unforgettable trip.</strong></p>
     <p>Contact us to book now!</p>
 </div>
