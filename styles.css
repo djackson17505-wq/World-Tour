@@ -1,0 +1,69 @@
+body{
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    margin:0;
+    background:#b3e5fc;
+
+}
+
+header{
+    text-align:center;
+    padding:20px;
+    font-size:40px;
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    letter-spacing:2px;
+    font-weight:bold;
+    color:#0f4c75;
+}
+
+nav{
+    background:#f7b733;
+    text-align:center;
+    padding:10px;
+}
+
+nav a{
+    color:white;
+    margin:0 20px;
+    text-decoration:none;
+    font-size:18px;
+}
+
+.container{
+    width:90%;
+    margin:auto;
+}
+
+.intro{
+    background:#3282b8;
+    padding:20px;
+    margin-top:20px;
+}
+
+.lesson-section{
+    display:flex;
+    justify-content:space-between;
+    margin-top:30px;
+}
+
+.lesson{
+    width:30%;
+}
+
+.lesson img{
+    width:100%;
+}
+
+footer{
+    border-top:4px solid #0f4c75;
+    border-bottom:4px solid #0f4c75;
+    background:#f7b733;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+    font-size:16px;
+}
+
+footer p{
+    margin:5px;
+}
