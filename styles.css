@@ -55,6 +55,17 @@ nav a{
     width:100%;
 }
 
+.image-row{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.image-row img{
+    width: 300px;
+    height: auto;
+}
+
 footer{
     border-top:4px solid #0f4c75;
     border-bottom:4px solid #0f4c75;
