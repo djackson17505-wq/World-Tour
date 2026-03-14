@@ -55,15 +55,19 @@ nav a{
     width:100%;
 }
 
-.image-row{
+.destinations{
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 25px;
 }
 
-.image-row img{
+.card{
+    text-align: center;
+}
+
+.card img{
     width: 300px;
-    height: auto;
+    height: 240px;
 }
 
 footer{
