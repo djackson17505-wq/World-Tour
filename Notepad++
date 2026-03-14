@@ -49,13 +49,13 @@ nav a{
     margin-top:20px;
 }
 
-.lesson-section{
+.destinations{
     display:flex;
     justify-content:space-between;
     margin-top:30px;
 }
 
-.lesson{
+.card{
     width:30%;
 }
 
@@ -110,21 +110,21 @@ footer p{
 
 <div class="destinations">
 
-<div class="lesson">
+<div class="card">
 
 <p>Enjoy the many places with beautiful sights outside!</p>
 <img src="https://github.com/djackson17505-wq/World-Tour/blob/main/pond.jpg?raw=true" width="500" height="450">
 
 </div>
 
-<div class="lesson">
+<div class="card">
 
 <p>See amazing waterfalls all around the world!</p>
 <img src="https://github.com/djackson17505-wq/World-Tour/blob/main/waterfall2.jpg?raw=true" width="500" height="450">
 
 </div>
 
-<div class="lesson">
+<div class="card">
 
 <p>Scale some of the tallest mountains!</p>
 <img src="https://github.com/djackson17505-wq/World-Tour/blob/main/mtrainier3.jpg?raw=true" width="500" height="450">
