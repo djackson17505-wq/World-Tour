@@ -7,7 +7,7 @@
 
 <title>World Tours</title>
 
-<style>
+<style type="text/css">
 
 body{
     font-family: "Trebuchet MS", Arial, sans-serif;
