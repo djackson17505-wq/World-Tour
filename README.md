@@ -132,16 +132,53 @@ E-mail us at <a href="lovepetpet@gmail.com ">lovepetpet@gmail.com</a>
 
 <!-- CATS -->
 <section id="cats">
-
-<div class="title">Cats</div>
-
-<h3>About the class</h3>
-<p>Watch video/audio to learn about pets:</p>
-
-<audio controls>
-<source src="https://files.catbox.moe/ymuima.mp3" type="audio/mpeg">
-</audio>
-
+<center><div class="title">🐈 Cats Looking for Home</div>
+<div class="subtitle">Soft and healing, perfect for companionship</div></center></br>
+<fieldset>
+<form>
+<p> 🐈 Name: Huahua</br>
+Breed: Tabby Cat</br>
+Age: 1 year</br>
+Gender: Female</br>
+Character: Gentle and affectionate</br>
+Health:
+Spayed/Neutered: Yes
+ </p>
+ </br>
+<input type="checkbox"> Adoption
+</br>
+</fieldset>
+</br>
+<fieldset>
+<p>🐱 Name: Orange</br>
+Breed: Orange Cat</br>
+Age: 2 years</br>
+Gender: Male </br>
+Character: Food-loving and friendly</br>
+Health:
+Spayed/Neutered: Yes
+ </p>
+ </br>
+<input type="checkbox"> Adoption
+</br>
+</fieldset>
+</br>
+<fieldset>
+<p>😺 Name: Snowball</br>
+Breed: White Cat</br>
+Age: 8 months</br>
+Gender: Female</br>
+Character: Energetic and playful</br>
+Health:
+Spayed/Neutered: Yes
+ </p>
+ </br>
+<input type="checkbox"> Adoption
+</br>
+ </fieldset>
+</form>
+</br></br></br></br></br>
+<center><div class="info-text">🎀 All cats have been spayed/neutered and dewormed. A sample of transition cat food is included.</div></center>
 </section>
 
 
