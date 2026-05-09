@@ -23,7 +23,7 @@ a {
 }
 
 a:hover {
-    background: purple;
+    background: navy;
     color: white;
 }
 
@@ -34,7 +34,7 @@ a:hover {
 .content {
     margin: 20px;
 }
-
+navy
 p.withmargin {
     margin-left: 30pt;
     margin-right: 30pt;
@@ -142,7 +142,11 @@ Age: 1 year</br>
 Gender: Female</br>
 Character: Gentle and affectionate</br>
 Health:
-Spayed/Neutered: Yes
+Spayed/Neutered: Yes 
+</br></br>
+<b>Huahua's Story</b></br>
+She doesn't like closed doors and will meow if she's left alone in another room. but she's perfectly fine as long as she can explore the whole house. 
+She's young, so she's very playful and funny. She's very clean, both with herself and with the litter box.
  </p>
  </br>
 <input type="checkbox"> Adoption
@@ -157,6 +161,10 @@ Gender: Male </br>
 Character: Food-loving and friendly</br>
 Health:
 Spayed/Neutered: Yes
+</br></br>
+<b>Orange's Story</b></br>
+This 2 year old boy is passionate. He will follow you from room to room, show his belly for pets and hunker down to chill nearby.
+Rescued off the cold streets this charming boy is looking for a loving forever home.
  </p>
  </br>
 <input type="checkbox"> Adoption
@@ -171,11 +179,28 @@ Gender: Female</br>
 Character: Energetic and playful</br>
 Health:
 Spayed/Neutered: Yes
+</br></br>
+<b>Snowball's Story</b></br>
+Did you know beautiful Snowball is a bookworm? She was found in the ceiling of a Brooklyn library!
+She's playful, sweet, easygoing, and social with people. She's not fond of other cats or dogs and would be best as a single cat in a home with people who have to play with her.
  </p>
  </br>
 <input type="checkbox"> Adoption
 </br>
  </fieldset>
+ </br>
+ <fieldset>
+ First name: <input type="text" name="firstname"><br><br>
+Last name: <input type="text" name="lastname"><br><br>
+Email: <input type="text" name="email"><br><br>
+Phone number: <input type="text" name="phone number"><br><br>
+Address: <input type="text" name="address"><br><br>
+Notes:<br>
+<textarea rows="5" cols="150"></textarea>
+</br>
+ </fieldset>
+ </br>
+<input type="submit" value="Submit">
 </form>
 </br></br></br></br></br>
 <center><div class="info-text">🎀 All cats have been spayed/neutered and dewormed. A sample of transition cat food is included.</div></center>
