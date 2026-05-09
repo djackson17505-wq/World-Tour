@@ -132,7 +132,7 @@ E-mail us at <a href="lovepetpet@gmail.com ">lovepetpet@gmail.com</a>
 
 <!-- DOGS -->
 <section id="dogs">
-
+<fieldset>
 <div class="title">🐶 Dogs Looking for Home</div>
 <div class="subtitle">Every Dog Deserves a Lovely Home</div></center>
 
@@ -146,7 +146,9 @@ E-mail us at <a href="lovepetpet@gmail.com ">lovepetpet@gmail.com</a>
 <li>Pets can reduce stress and loneliness</li>
 <li>You gain a loyal best friend</li>
 </ul>
+</fieldset>
 
+<fieldset>
 <table>
 <tr>
 <th>Meet Luna</th>
@@ -194,6 +196,7 @@ E-mail us at <a href="lovepetpet@gmail.com ">lovepetpet@gmail.com</a>
             <input type="radio" name="coco" value="no"> No
         </td>
 </table>
+</fieldset>
 <br><br><br><br>
 
 <center>
