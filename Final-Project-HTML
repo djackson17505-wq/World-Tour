@@ -276,8 +276,6 @@ Would you like to adopt Snowball?
  First name: <input type="text" name="firstname"><br><br>
 Last name: <input type="text" name="lastname"><br><br>
 Email: <input type="text" name="email"><br><br>
-Phone number: <input type="text" name="phone number"><br><br>
-Address: <input type="text" name="address"><br><br>
 Notes:<br>
 <textarea rows="5" cols="150"></textarea>
 </br>
