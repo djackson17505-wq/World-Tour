@@ -296,34 +296,51 @@ Notes:<br>
 
 
 <!-- OTHER ANIMALS -->
-<section id="other animals">
+<<section id="other animals">
 
 <div class="title">Other Animals</div>
 
+<br>
+<fieldset>
+<p>There are many reasons to adopt a pet of any  kind! 
+<br><br>
+<b>Some reasons people adopt include but are not limited to:</b><br>
+<ul>
+<li>Gives animals a second chance at a loving home</li>
+<li>Provides companionship and emotional support</li>
+<li>Helps reduce stress and loneliness</li>
+<li>Encourages exercise and a healthier lifestyle</li>
+<li>Teaches responsibility and compassion</li>
+</ul>
+ </p>
+ <p><i>“Choose a pet that matches your lifestyle, living space, activity level, and the amount of time and care you can provide.”</i></p>
+ <br>
 <form>
+</fieldset>
+<br></br>
 <fieldset>
 First name: <input type="text" name="firstname"><br><br>
 Last name: <input type="text" name="lastname"><br><br>
 Email: <input type="text" name="email"><br><br>
 
-Would you like to plan?
+Would you like to plan for a visit?
 <input type="radio" name="A" value="yes"> Yes
 <input type="radio" name="B" value="no"> No
 
 <br><br>
 
 Interests:<br>
-<input type="checkbox"> A
-<input type="checkbox"> B
-<input type="checkbox"> C
+<input type="checkbox"> Mammals
+<input type="checkbox"> Birds
+<input type="checkbox"> Reptiles
+<input type="checkbox"> Fish
 
 <br><br>
 
-Days:
-<select name="days">
-<option>3 days</option>
-<option>5 days</option>
-<option>7 days</option>
+Gender: <select name="days">
+<option>Unspecified</option>
+<option>Female</option>
+<option>Male</option>
 
 </select>
 
