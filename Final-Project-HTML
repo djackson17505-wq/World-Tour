@@ -13,6 +13,8 @@
 body {
     font-family: Verdana, Garamond, sans-serif;
     font-size: 11pt;
+    background-color: beige;
+    color: navy;
 }
 
 table {
