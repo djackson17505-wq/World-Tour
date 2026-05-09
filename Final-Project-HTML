@@ -229,8 +229,8 @@ She's young, so she's very playful and funny. She's very clean, both with hersel
  </p>
  </br>
 Would you like to adopt Lily?
-<input type="radio" name="A" value="yes"> Yes
-<input type="radio" name="B" value="no"> No
+<input type="radio" name="Lily" value="yes"> Yes
+<input type="radio" name="Lily" value="no"> No
 </br>
 </fieldset>
 </br>
@@ -249,8 +249,8 @@ Rescued off the cold streets this charming boy is looking for a loving forever h
  </p>
  </br>
 Would you like to adopt Orange?
-<input type="radio" name="A" value="yes"> Yes
-<input type="radio" name="B" value="no"> No
+<input type="radio" name="Orange" value="yes"> Yes
+<input type="radio" name="Orange" value="no"> No
 </br>
 </fieldset>
 </br>
@@ -269,8 +269,8 @@ She's playful, sweet, easygoing, and social with people. She's not fond of other
  </p>
  </br>
 Would you like to adopt Snowball?
-<input type="radio" name="A" value="yes"> Yes
-<input type="radio" name="B" value="no"> No
+<input type="radio" name="Snowball" value="yes"> Yes
+<input type="radio" name="Snowball" value="no"> No
 </br>
  </fieldset>
  </br>
