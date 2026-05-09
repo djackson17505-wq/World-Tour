@@ -213,7 +213,7 @@ E-mail us at <a href="lovepetpet@gmail.com ">lovepetpet@gmail.com</a>
 <div class="subtitle">Soft and healing, perfect for companionship</div></center></br>
 <fieldset>
 <form>
-<p> 🐈 Name: Huahua</br>
+<p> 🐈 Name: Coco</br>
 Breed: Tabby Cat</br>
 Age: 1 year</br>
 Gender: Female</br>
@@ -221,12 +221,14 @@ Character: Gentle and affectionate</br>
 Health:
 Spayed/Neutered: Yes 
 </br></br>
-<b>Huahua's Story</b></br>
+<b>Coco's Story</b></br>
 She doesn't like closed doors and will meow if she's left alone in another room. but she's perfectly fine as long as she can explore the whole house. 
 She's young, so she's very playful and funny. She's very clean, both with herself and with the litter box.
  </p>
  </br>
-<input type="checkbox"> Adoption
+Would you like to adopt Coco?
+<input type="radio" name="A" value="yes"> Yes
+<input type="radio" name="B" value="no"> No
 </br>
 </fieldset>
 </br>
@@ -244,7 +246,9 @@ This 2 year old boy is passionate. He will follow you from room to room, show hi
 Rescued off the cold streets this charming boy is looking for a loving forever home.
  </p>
  </br>
-<input type="checkbox"> Adoption
+Would you like to adopt Orange?
+<input type="radio" name="A" value="yes"> Yes
+<input type="radio" name="B" value="no"> No
 </br>
 </fieldset>
 </br>
@@ -262,7 +266,9 @@ Did you know beautiful Snowball is a bookworm? She was found in the ceiling of a
 She's playful, sweet, easygoing, and social with people. She's not fond of other cats or dogs and would be best as a single cat in a home with people who have to play with her.
  </p>
  </br>
-<input type="checkbox"> Adoption
+Would you like to adopt Snowball?
+<input type="radio" name="A" value="yes"> Yes
+<input type="radio" name="B" value="no"> No
 </br>
  </fieldset>
  </br>
