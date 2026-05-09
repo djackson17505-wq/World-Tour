@@ -279,7 +279,7 @@ Would you like to adopt Snowball?
 Last name: <input type="text" name="lastname"><br><br>
 Email: <input type="text" name="email"><br><br>
 Notes:<br>
-<textarea rows="5" cols="150"></textarea>
+<textarea rows="3" cols="120"></textarea>
 <br>
  </fieldset>
  <br>
