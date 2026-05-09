@@ -283,9 +283,10 @@ Notes:<br>
 </br>
  </fieldset>
  </br>
-<input type="submit" value="Submit">
+<center>
+<button>Submit Adoption Form</button> </center>
 </form>
-</br></br></br>
+<br><br><br><br>
 <footer>
     <p>© 2026 Happy Tails Adoption Center | Find your forever friend today.</p>
 </footer>
