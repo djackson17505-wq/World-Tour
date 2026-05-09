@@ -14,6 +14,7 @@ body {
     font-family: Verdana, Garamond, sans-serif;
     font-size: 11pt;
     background-color: beige;
+    color: black;
 }
 
 table {
@@ -55,7 +56,7 @@ p.withmargin {
 
 .subtitle {
     font-size: large;
-    color: black;
+    color: navy;
     font-family: "Bauhaus 93", Verdana;
     text-align: center;
 }
