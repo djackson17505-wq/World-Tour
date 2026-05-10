@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-<meta charset="utf-8" />
+<meta charset="utf-8">
 <title>Pets Website</title>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -61,7 +62,6 @@ p.withmargin {
     text-align: center;
 }
 
-/* JS section */
 section {
     display: none;
     margin-top: 40px;
@@ -79,63 +79,82 @@ button{
     border: none;
     border-radius: 10px;
     cursor: pointer;
-    font-family: 'Fredoka', sans-serif;
 }
 
 button:hover{
     background-color: navy;
 }
+
 footer{
     text-align: center;
     background-color: #ffe5d9;
     padding: 15px;
     color: #555;
     margin-top: 40px;
-    font-family: Arial, sans-serif;
 }
+
+.container{
+    width: 85%;
+    margin: auto;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.25);
+    border: 2px solid rgba(255,255,255,0.5);
+    border-radius: 15px;
+    backdrop-filter: blur(5px);
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+.center {
+    text-align: center;
+}
+
 </style>
 </head>
 
 <body>
 
-<!-- NAVIGATION  -->
-<div style="text-align:center; margin-top:20px;">
+<!-- NAVIGATION -->
+<div class="center" style="margin-top:20px;">
     <ul>
         <li class="navlist"><a href="#" onclick="showPage('home')">Home</a></li>
         <li class="navlist"><a href="#" onclick="showPage('dogs')">Dogs</a></li>
         <li class="navlist"><a href="#" onclick="showPage('cats')">Cats</a></li>
-        <li class="navlist"><a href="#" onclick="showPage('other animals')">Other Animals</a></li>
+        <li class="navlist"><a href="#" onclick="showPage('other-animals')">Other Animals</a></li>
     </ul>
 </div>
 
 <!-- HOME -->
 <section id="home" class="active">
 
-<div class="title">Find Your New Best Friend</div>
+<h1 class="title">Find Your New Best Friend</h1>
+
 <div class="subtitle">Animals Available for Adoption</div>
 
 <div class="content">
 <p class="withmargin">
-Having a pet can make your life better. Pets help you feel less lonely and reduce stress. 
-They encourage you to exercise, especially dogs that need daily walks. 
-Taking care of a pet also gives you a daily routine and a sense of responsibility. 
-Pets provide unconditional companionship and can even help you meet new people. 
+Having a pet can make your life better. Pets help you feel less lonely and reduce stress.
+They encourage you to exercise, especially dogs that need daily walks.
+Taking care of a pet also gives you a daily routine and a sense of responsibility.
+Pets provide unconditional companionship and can even help you meet new people.
 For families, they teach children kindness and care for others.
 </p>
 
 <p class="withmargin" style="font-style: italic; text-align:center;">
-E-mail us at <a href="lovepetpet@gmail.com ">lovepetpet@gmail.com</a>
+E-mail us at
+<a href="mailto:lovepetpet@gmail.com">lovepetpet@gmail.com</a>
 </p>
 </div>
-</section>
 
+</section>
 
 <!-- DOGS -->
 <section id="dogs">
 
-<div class="title">🐶 Dogs Looking for Home</div>
-<div class="subtitle">Every Dog Deserves a Lovely Home</div></center>
+<h2 class="title">🐶 Dogs Looking for Home</h2>
 
+<div class="subtitle">Every Dog Deserves a Lovely Home</div>
+
+<div class="container">
 
 <p><b>Why Adopt a Dog?</b></p>
 
@@ -147,219 +166,344 @@ E-mail us at <a href="lovepetpet@gmail.com ">lovepetpet@gmail.com</a>
 <li>You gain a loyal best friend</li>
 </ul>
 
+</div>
+
+<br><br>
+
+<div class="container">
+
 <table>
+
 <tr>
 <th>Meet Luna</th>
 <th>Meet Bailey</th>
-<th>Meet CoCo</th>
+<th>Meet Coco</th>
 </tr>
-<tr>
-<td><img src="dog.png" width="420" height="400"></td>
-<td><img src="dog2.png" width="420" height="400"></td>
-<td><img src="dog3.png" width="420" height="400"></td>
-</tr>
+
 <tr>
 <td>
-     <p><b>Breed:</b> Husky Mix<br>
-        <b>Age:</b> 2 years old</p>
+<img src="dog.png" width="420" height="400" alt="Luna the Husky mix dog">
+</td>
 
-    <p>
-        Luna is an energetic Husky mix who loves running, playing fetch, and outdoor adventures. She is friendly, smart, and would be perfect for an active family looking for a loyal companion.
-            </p>
-        <p>Would you like to adopt Luna?</p>
+<td>
+<img src="dog2.png" width="420" height="400" alt="Bailey the Beagle mix puppy">
+</td>
 
-        <input type="radio" name="luna" value="yes"> Yes
-        <input type="radio" name="luna" value="no"> No
-        </td>
+<td>
+<img src="dog3.png" width="420" height="400" alt="Coco the Dachshund">
+</td>
+</tr>
 
-        <td>
-            <p><b>Breed:</b> Beagle Mix<br>
-        <b>Age:</b> 5 months old</p>            
-        <p>
-                Bailey is a playful and affectionate puppy who enjoys toys, cuddles, and meeting new people. Her sweet personality makes her a great fit for families and first-time dog owners.
-            </p>
-            <p>Would you like to adopt Bailey?</p>
-            <input type="radio" name="bailey" value="yes"> Yes
-        <input type="radio" name="bailey" value="no"> No
-        </td>
+<tr>
 
-        <td>
-            <p><b>Breed:</b> Dachshund<br>
-        <b>Age:</b> 4 years old</p>
-            <p>
-                Coco is a calm and loving Dachshund who enjoys relaxing beside her favorite humans. She is gentle, loyal, and would thrive in a quiet and caring home.
-            </p>
-            <p>Would you like to adopt Coco?</p>
-            <input type="radio" name="coco" value="yes"> Yes
-            <input type="radio" name="coco" value="no"> No
-        </td>
+<td>
+<p>
+<b>Breed:</b> Husky Mix<br>
+<b>Age:</b> 2 years old
+</p>
+
+<p>
+Luna is an energetic Husky mix who loves running, playing fetch, and outdoor adventures.
+She is friendly, smart, and would be perfect for an active family looking for a loyal companion.
+</p>
+
+<p>Would you like to adopt Luna?</p>
+
+<input type="radio" name="luna" value="yes"> Yes
+<input type="radio" name="luna" value="no"> No
+</td>
+
+<td>
+<p>
+<b>Breed:</b> Beagle Mix<br>
+<b>Age:</b> 5 months old
+</p>
+
+<p>
+Bailey is a playful and affectionate puppy who enjoys toys, cuddles, and meeting new people.
+Her sweet personality makes her a great fit for families and first-time dog owners.
+</p>
+
+<p>Would you like to adopt Bailey?</p>
+
+<input type="radio" name="bailey" value="yes"> Yes
+<input type="radio" name="bailey" value="no"> No
+</td>
+
+<td>
+<p>
+<b>Breed:</b> Dachshund<br>
+<b>Age:</b> 4 years old
+</p>
+
+<p>
+Coco is a calm and loving Dachshund who enjoys relaxing beside her favorite humans.
+She is gentle, loyal, and would thrive in a quiet and caring home.
+</p>
+
+<p>Would you like to adopt Coco?</p>
+
+<input type="radio" name="coco" value="yes"> Yes
+<input type="radio" name="coco" value="no"> No
+</td>
+
+</tr>
+
 </table>
-<br><br><br><br>
 
-<center>
-<button>Submit Adoption Form</button> </center>
-<br><br><br><br>
+</div>
+
+<br><br>
+
+<div class="center">
+<button>Submit Adoption Form</button>
+</div>
 
 <footer>
-    <p>© 2026 Happy Tails Adoption Center | Find your forever friend today.</p>
+<p>© 2026 Happy Tails Adoption Center | Find your forever friend today.</p>
 </footer>
 
 </section>
-
-
-
 
 <!-- CATS -->
 <section id="cats">
-<center><div class="title">🐈 Cats Looking for Home</div>
-<div class="subtitle">Soft and healing, perfect for companionship</div></center></br>
-<fieldset>
+
+<h2 class="title">🐈 Cats Looking for Home</h2>
+
+<div class="subtitle">Soft and healing, perfect for companionship</div>
+
+<br>
+
 <form>
-<p> 🐈 Name: Lily</br>
-Breed: Tabby Cat</br>
-Age: 1 year</br>
-Gender: Female</br>
-Character: Gentle and affectionate</br>
-Health:
-Spayed/Neutered: Yes 
-</br></br>
-<b>Lily's Story</b></br>
-She doesn't like closed doors and will meow if she's left alone in another room. but she's perfectly fine as long as she can explore the whole house. 
-She's young, so she's very playful and funny. She's very clean, both with herself and with the litter box.
- </p>
- </br>
+
+<fieldset>
+
+<p>
+🐈 Name: Lily<br>
+Breed: Tabby Cat<br>
+Age: 1 year old<br>
+Gender: Female<br>
+Character: Gentle and affectionate<br>
+Health: Spayed/Neutered: Yes
+</p>
+
+<p>
+<b>Lily's Story</b><br>
+She doesn't like closed doors and will meow if she's left alone in another room,
+but she's perfectly fine as long as she can explore the whole house.
+She's young, so she's very playful and funny.
+She's very clean, both with herself and with the litter box.
+</p>
+
 Would you like to adopt Lily?
-<input type="radio" name="A" value="yes"> Yes
-<input type="radio" name="B" value="no"> No
-</br>
+<input type="radio" name="Lily" value="yes"> Yes
+<input type="radio" name="Lily" value="no"> No
+
 </fieldset>
-</br>
+
+<br>
+
 <fieldset>
-<p>🐱 Name: Orange</br>
-Breed: Orange Cat</br>
-Age: 2 years</br>
-Gender: Male </br>
-Character: Food-loving and friendly</br>
-Health:
-Spayed/Neutered: Yes
-</br></br>
-<b>Orange's Story</b></br>
-This 2 year old boy is passionate. He will follow you from room to room, show his belly for pets and hunker down to chill nearby.
+
+<p>
+🐱 Name: Orange<br>
+Breed: Orange Cat<br>
+Age: 2 years old<br>
+Gender: Male<br>
+Character: Food-loving and friendly<br>
+Health: Spayed/Neutered: Yes
+</p>
+
+<p>
+<b>Orange's Story</b><br>
+This 2 year old boy is passionate.
+He will follow you from room to room, show his belly for pets and hunker down nearby.
 Rescued off the cold streets this charming boy is looking for a loving forever home.
- </p>
- </br>
+</p>
+
 Would you like to adopt Orange?
-<input type="radio" name="A" value="yes"> Yes
-<input type="radio" name="B" value="no"> No
-</br>
+<input type="radio" name="Orange" value="yes"> Yes
+<input type="radio" name="Orange" value="no"> No
+
 </fieldset>
-</br>
+
+<br>
+
 <fieldset>
-<p>😺 Name: Snowball</br>
-Breed: White Cat</br>
-Age: 8 months</br>
-Gender: Female</br>
-Character: Energetic and playful</br>
-Health:
-Spayed/Neutered: Yes
-</br></br>
-<b>Snowball's Story</b></br>
-Did you know beautiful Snowball is a bookworm? She was found in the ceiling of a Brooklyn library!
-She's playful, sweet, easygoing, and social with people. She's not fond of other cats or dogs and would be best as a single cat in a home with people who have to play with her.
- </p>
- </br>
+
+<p>
+😺 Name: Snowball<br>
+Breed: White Cat<br>
+Age: 8 months old<br>
+Gender: Female<br>
+Character: Energetic and playful<br>
+Health: Spayed/Neutered: Yes
+</p>
+
+<p>
+<b>Snowball's Story</b><br>
+Did you know beautiful Snowball is a bookworm?
+She was found in the ceiling of a Brooklyn library!
+She's playful, sweet, easygoing, and social with people.
+She's not fond of other cats or dogs and would be best as a single cat.
+</p>
+
 Would you like to adopt Snowball?
-<input type="radio" name="A" value="yes"> Yes
-<input type="radio" name="B" value="no"> No
-</br>
- </fieldset>
- </br>
- <fieldset>
- First name: <input type="text" name="firstname"><br><br>
-Last name: <input type="text" name="lastname"><br><br>
-Email: <input type="text" name="email"><br><br>
+<input type="radio" name="Snowball" value="yes"> Yes
+<input type="radio" name="Snowball" value="no"> No
+
+</fieldset>
+
+<br>
+
+<fieldset>
+
+First name:
+<input type="text" name="firstname">
+
+<br><br>
+
+Last name:
+<input type="text" name="lastname">
+
+<br><br>
+
+Email:
+<input type="text" name="email">
+
+<br><br>
+
 Notes:<br>
-<textarea rows="5" cols="150"></textarea>
-</br>
- </fieldset>
- </br>
-<input type="submit" value="Submit">
+
+<textarea rows="3" cols="120"></textarea>
+
+</fieldset>
+
+<br>
+
+<div class="center">
+<button>Submit Adoption Form</button>
+</div>
+
 </form>
-</br></br></br></br></br>
-<center><div class="info-text">🎀 All cats have been spayed/neutered and dewormed. A sample of transition cat food is included.</div></center>
-<br><br><br><br>
+
 <footer>
-    <p>© 2026 Happy Tails Adoption Center | Find your forever friend today.</p>
+<p>© 2026 Happy Tails Adoption Center | Find your forever friend today.</p>
 </footer>
+
 </section>
 
-
-
-
 <!-- OTHER ANIMALS -->
-<section id="other animals">
+<section id="other-animals">
 
-<div class="title">VVVVV  Other Animals</div>
+<h2 class="title">Other Animals</h2>
+
+<br>
 
 <form>
-<fieldset>
-First name: <input type="text" name="firstname"><br><br>
-Last name: <input type="text" name="lastname"><br><br>
-Email: <input type="text" name="email"><br><br>
 
-Would you like to plan?
-<input type="radio" name="A" value="yes"> Yes
-<input type="radio" name="B" value="no"> No
+<fieldset>
+
+<p>There are many reasons to adopt a pet of any kind!</p>
+
+<p><b>Some reasons people adopt include:</b></p>
+
+<ul>
+<li>Gives animals a second chance at a loving home</li>
+<li>Provides companionship and emotional support</li>
+<li>Helps reduce stress and loneliness</li>
+<li>Encourages exercise and a healthier lifestyle</li>
+<li>Teaches responsibility and compassion</li>
+</ul>
+
+<p>
+<i>
+Choose a pet that matches your lifestyle, living space,
+activity level, and the amount of time and care you can provide.
+</i>
+</p>
+
+</fieldset>
+
+<br>
+
+<fieldset>
+
+First name:
+<input type="text" name="firstname">
+
+<br><br>
+
+Last name:
+<input type="text" name="lastname">
+
+<br><br>
+
+Email:
+<input type="text" name="email">
+
+<br><br>
+
+Would you like to plan for a visit?
+
+<input type="radio" name="visit" value="yes"> Yes
+<input type="radio" name="visit" value="no"> No
 
 <br><br>
 
 Interests:<br>
-<input type="checkbox"> A
-<input type="checkbox"> B
-<input type="checkbox"> C
+
+<input type="checkbox"> Mammals
+<input type="checkbox"> Birds
+<input type="checkbox"> Reptiles
+<input type="checkbox"> Fish
 
 <br><br>
 
-Days:
-<select name="days">
-<option>3 days</option>
-<option>5 days</option>
-<option>7 days</option>
+Gender:
 
+<select name="gender">
+<option>Unspecified</option>
+<option>Female</option>
+<option>Male</option>
 </select>
 
 <br><br>
 
 Notes:<br>
+
 <textarea rows="3" cols="50"></textarea>
 
 </fieldset>
 
 <br>
+
 <input type="submit" value="Submit">
 <input type="reset" value="Reset">
+
 </form>
-<br><br><br><br><br><br><br><br><br><br><br><br>
 
 <footer>
-    <p>© 2026 Happy Tails Adoption Center | Find your forever friend today.</p>
+<p>© 2026 Happy Tails Adoption Center | Find your forever friend today.</p>
 </footer>
+
 </section>
-
-
 
 <!-- JAVASCRIPT -->
 <script>
+
 function showPage(pageId) {
 
 let pages = document.querySelectorAll("section");
 
-pages.forEach(p => {
-p.classList.remove("active");
+pages.forEach(function(p) {
+    p.classList.remove("active");
 });
 
 document.getElementById(pageId).classList.add("active");
+
 }
+
 </script>
 
 </body>
