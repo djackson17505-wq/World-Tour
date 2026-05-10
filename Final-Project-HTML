@@ -93,6 +93,21 @@ footer{
     margin-top: 40px;
     font-family: Arial, sans-serif;
 }
+
+.container{
+    width: 85%;
+    margin: auto;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.25);
+
+    border: 2px solid rgba(255,255,255,0.5);
+
+    border-radius: 15px;
+
+    backdrop-filter: blur(5px);
+
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
 </style>
 </head>
 
@@ -135,7 +150,7 @@ E-mail us at <a href="lovepetpet@gmail.com ">lovepetpet@gmail.com</a>
 
 <div class="title">🐶 Dogs Looking for Home</div>
 <div class="subtitle">Every Dog Deserves a Lovely Home</div></center>
-
+<div class="container">
 
 <p><b>Why Adopt a Dog?</b></p>
 
@@ -147,6 +162,10 @@ E-mail us at <a href="lovepetpet@gmail.com ">lovepetpet@gmail.com</a>
 <li>You gain a loyal best friend</li>
 </ul>
 
+</div>
+<br><br><br><br><br>
+
+<div class="container">
 <table>
 <tr>
 <th>Meet Luna</th>
@@ -194,6 +213,7 @@ E-mail us at <a href="lovepetpet@gmail.com ">lovepetpet@gmail.com</a>
             <input type="radio" name="coco" value="no"> No
         </td>
 </table>
+</div>
 <br><br><br><br>
 
 <center>
